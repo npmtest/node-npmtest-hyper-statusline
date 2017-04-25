@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [hyper-statusline (v1.6.9)](https://github.com/henrikdahl/hyper-statusline#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-hyper-statusline.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-hyper-statusline) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-hyper-statusline.svg)](https://travis-ci.org/npmtest/node-npmtest-hyper-statusline)",
+    "description": "#### basic test coverage for  [hyper-statusline (v1.6.9)](https://github.com/henrikdahl/hyper-statusline#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-hyper-statusline.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-hyper-statusline) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-hyper-statusline.svg)](https://travis-ci.org/npmtest/node-npmtest-hyper-statusline)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "hyper-statusline": "*",
@@ -36,5 +36,5 @@
         "start": "PORT=${PORT:-8080} utility2 start test.js",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "2017.4.26"
 }
